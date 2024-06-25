@@ -1,0 +1,48 @@
+h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: "Arial", "Verdana", sans-serif;
+    text-align: left;
+}
+
+h2 {
+    font-weight: 500;
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+h3 {
+    font-weight: 300;
+    font-family: "Tahoma", "Verdana", sans-serif;
+    color: rgb(31, 31, 31);
+}
+
+p {
+    font-weight: 100;
+    font-family: "Verdana", sans-serif;
+}
+
+a {
+    font-size: 30px;
+    font-weight: 400;
+    font-family: "Verdana", "Arial", sans-serif;
+    text-align: center;
+    color: hsl(181, 100%, 17%)
+}
+
+a:hover {
+    color: rgb(0, 147, 34);
+}
+
+ul {
+    list-style: square;
+}
+
+ol {
+    list-style: decimal;
+}
+
+li {
+    font-weight: 400;
+    font-family: "Verdana", sans-serif;
+}
