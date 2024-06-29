@@ -27,11 +27,11 @@ a {
     font-weight: 400;
     font-family: "Verdana", "Arial", sans-serif;
     text-align: center;
-    color: hsl(181, 100%, 17%)
+    color: hsl(0, 0%, 100%)
 }
 
 a:hover {
-    color: rgb(0, 147, 34);
+    color: rgb(145, 4, 4);
 }
 
 ul {
@@ -45,4 +45,29 @@ ol {
 li {
     font-weight: 400;
     font-family: "Verdana", sans-serif;
+}
+
+.main-title {
+    text-align: center;
+    margin: 20px;
+}
+
+.main-list {
+    list-style: none;
+}
+
+.main-list li {
+    font-size: 30px;
+    margin: 20px;
+}
+
+.recipes-section {
+    background-color: rgb(230, 184, 0);
+    margin: 40px auto;
+    padding: 20px;
+    box-sizing: border-box;
+    width: 50%;
+    height: auto;
+    border: 5px solid rgb(145, 4, 4);
+    border-radius: 10px;
 }
